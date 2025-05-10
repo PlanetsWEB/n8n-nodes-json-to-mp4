@@ -1,0 +1,24 @@
+{
+    "name": "n8n-nodes-json-to-mp4",
+    "version": "1.0.0",
+    "description": "Community node para usar a API JsonToMp4 no n8n.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "n8n-node-dev build",
+      "lint": "eslint . --ext .ts",
+      "dev": "n8n-node-dev dev",
+      "prepublishOnly": "npm run build"
+    },
+    "keywords": ["n8n", "workflow", "automation", "json", "video", "mp4"],
+    "author": "Seu Nome",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.6.0"
+    },
+    "devDependencies": {
+      "n8n-node-dev": "^1.2.0",
+      "typescript": "^5.2.2"
+    }
+  }
+  
