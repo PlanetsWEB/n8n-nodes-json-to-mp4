@@ -1,19 +1,15 @@
-import {
-    ICredentialType,
-    INodeProperties,
-  } from 'n8n-workflow';
-  
-  export class JsonToMp4Api implements ICredentialType {
-    name = 'jsonToMp4Api';
-    displayName = 'JsonToMp4 API';
-    documentationUrl = 'https://json-to-mp4.online';
-    properties: INodeProperties[] = [
-      {
-        displayName: 'API Key',
-        name: 'apiKey',
-        type: 'string',
-        default: '',
-      },
-    ];
-  }
-  
+import { ICredentialType, INodeProperties } from 'n8n-workflow';
+
+export class JsonToMp4Api implements ICredentialType {
+	name = 'jsonToMp4Api';
+	displayName = 'JsonToMp4 API';
+	documentationUrl = 'https://json-to-mp4.online';
+	properties: INodeProperties[] = [
+		{
+			displayName: 'API Key',
+			name: 'apiKey',
+			type: 'string',
+			default: '',
+		},
+	];
+}
