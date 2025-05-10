@@ -7,7 +7,7 @@ import {
 
 import axios from 'axios';
 
-export class JsonToMp4Node implements INodeType {
+export class JsonToMp4 implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'JsonToMp4',
 		name: 'jsonToMp4',
