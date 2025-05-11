@@ -15,7 +15,7 @@ export class JsonToMp4 implements INodeType {
 		version: 1,
 		description: 'Crie Vídeos via API com Facilidade da Json-To-Mp4.online',
 		documentationUrl: 'https://json-to-mp4.online/docs/intro',
-		icon: 'file:../JsonToMp4.png',
+		icon: 'file:../icon.png',
 		defaults: {
 			name: 'Json-To-Mp4.online',
 		},
