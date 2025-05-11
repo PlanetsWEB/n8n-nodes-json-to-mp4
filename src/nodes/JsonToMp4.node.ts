@@ -9,7 +9,7 @@ import axios from 'axios';
 
 export class JsonToMp4 implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'JsonToMp4',
+		displayName: 'JsonToMp4 giulia',
 		name: 'jsonToMp4',
 		group: ['transform'],
 		version: 1,
