@@ -4,6 +4,9 @@ const fs = require('fs');
 const path = require('path');
 
 try {
+  console.log('🔧 Apagando pasta dist');
+  fs.rmSync('./dist', { recursive: true, force: true });
+
   console.log('🔧 Executando: npm run build');
   execSync('npm run build', { stdio: 'inherit' });
 

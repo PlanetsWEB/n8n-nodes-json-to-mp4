@@ -1,7 +1,8 @@
-import { ICredentialType, INodeProperties } from 'n8n-workflow';
+import { Icon, ICredentialType, INodeProperties } from 'n8n-workflow';
 
 export class JsonToMp4Api implements ICredentialType {
 	name = 'jsonToMp4Api';
+	icon = 'file:../JsonToMp4.png' as Icon;
 	displayName = 'JsonToMp4 API';
 	documentationUrl = 'https://json-to-mp4.online';
 	properties: INodeProperties[] = [

@@ -9,13 +9,15 @@ import axios from 'axios';
 
 export class JsonToMp4 implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'JsonToMp4 giulia',
-		name: 'jsonToMp4',
+		displayName: 'Json-To-Mp4.online',
+		name: 'Json-To-Mp4.online',
 		group: ['transform'],
 		version: 1,
-		description: 'Cria vídeos usando a API JsonToMp4',
+		description: 'Crie Vídeos via API com Facilidade da Json-To-Mp4.online',
+		documentationUrl: 'https://json-to-mp4.online/docs/intro',
+		icon: 'file:../JsonToMp4.png',
 		defaults: {
-			name: 'JsonToMp4',
+			name: 'Json-To-Mp4.online',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
